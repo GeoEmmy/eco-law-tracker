@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "version": "2026-02-03",
+    "description": "친환경 건축 법규 추적 목록",
+    "source": "친환경법규 검토 양식(업데이트) ver. 2026 02 03.hwp"
+  },
+  "nationalLaws": [
+    {
+      "id": "green-building-support-act",
+      "name": "녹색건축물 조성 지원법",
+      "category": "법률",
+      "effectiveDate": "2025-01-01",
+      "lawNumber": "법률 제20337호",
+      "relatedRules": [
+        "녹색건축물 조성 지원법 시행령",
+        "녹색건축물 조성 지원법 시행규칙"
+      ],
+      "keyArticles": ["제14조", "제14조의2", "제15조", "제16조", "제17조"],
+      "topics": ["에너지절약계획서", "녹색건축인증", "제로에너지건축물", "차양설치"]
+    },
+    {
+      "id": "green-building-certification-rule",
+      "name": "녹색건축 인증에 관한 규칙",
+      "category": "규칙",
+      "effectiveDate": "2024-07-10",
+      "lawNumber": "국토교통부령 제1357호",
+      "relatedStandards": [
+        "녹색건축 인증기준 (국토교통부고시)",
+        "녹색건축 인증기준 운영세칙"
+      ],
+      "keyArticles": ["제2조", "제6조", "제7조", "제9조"],
+      "topics": ["인증대상", "인증등급", "유효기간"]
+    },
+    {
+      "id": "building-energy-saving-standard",
+      "name": "건축물의 에너지절약 설계기준",
+      "category": "고시",
+      "effectiveDate": "2025-12-31",
+      "lawNumber": "국토교통부고시 제2025-738호",
+      "keyArticles": ["제3조", "제4조", "제6조", "제8조", "제10조", "제15조", "제21조"],
+      "topics": ["EPI", "열관류율", "의무사항", "에너지소요량평가서"]
+    },
+    {
+      "id": "zero-energy-building-certification-rule",
+      "name": "제로에너지건축물 인증에 관한 규칙",
+      "category": "규칙",
+      "effectiveDate": "2025-01-01",
+      "lawNumber": "국토교통부령 제1425호",
+      "relatedStandards": ["제로에너지건축물 인증기준"],
+      "keyArticles": ["제2조", "제9조"],
+      "topics": ["인증등급", "에너지자립률", "BEMS"]
+    },
+    {
+      "id": "renewable-energy-act",
+      "name": "신에너지 및 재생에너지 개발·이용·보급 촉진법",
+      "category": "법률",
+      "effectiveDate": "2022-11-15",
+      "lawNumber": "법률 제19040호",
+      "relatedRules": [
+        "신재생에너지설비의 지원 등에 관한 규정",
+        "신재생에너지 설비의 지원 등에 관한 지침"
+      ],
+      "keyArticles": ["제12조"],
+      "topics": ["신재생에너지 의무비율", "공급의무비율"],
+      "obligationRates": {
+        "2024-2025": "34%",
+        "2026-2027": "36%",
+        "2028-2029": "38%",
+        "2030+": "40%"
+      }
+    },
+    {
+      "id": "public-energy-rationalization",
+      "name": "공공기관 에너지이용 합리화 추진에 관한 규정",
+      "category": "고시",
+      "effectiveDate": "2024-07-01",
+      "lawNumber": "산업통상자원부고시 제2024-110호",
+      "keyArticles": ["제6조", "제10조", "제11조", "제12조", "제16조"],
+      "topics": ["BEMS", "비전기식냉방", "ESS", "LED조명", "친환경자동차"]
+    },
+    {
+      "id": "energy-use-rationalization-act",
+      "name": "에너지이용 합리화법",
+      "category": "법률",
+      "effectiveDate": "2024-09-20",
+      "lawNumber": "법률 제20443호",
+      "relatedRules": ["에너지사용계획 협의업무 운영규정"],
+      "keyArticles": ["제10조"],
+      "topics": ["에너지사용계획서"]
+    },
+    {
+      "id": "distributed-energy-act",
+      "name": "분산에너지 활성화 특별법",
+      "category": "법률",
+      "effectiveDate": "2024-06-13",
+      "lawNumber": "법률 제19437호",
+      "relatedRules": ["분산에너지 설비 설치계획서 제출 및 설치확인 등에 관한 규정"],
+      "keyArticles": ["제13조", "제23조"],
+      "topics": ["분산에너지 설비 설치의무", "전력계통영향평가"]
+    },
+    {
+      "id": "water-reuse-act",
+      "name": "물의 재이용 촉진 및 지원에 관한 법률",
+      "category": "법률",
+      "effectiveDate": "2024-07-24",
+      "lawNumber": "법률 제20115호",
+      "relatedRules": ["물 재이용시설 운영·관리 업무지침"],
+      "keyArticles": ["제8조", "제9조"],
+      "topics": ["빗물이용시설", "중수도"]
+    },
+    {
+      "id": "bicycle-use-act",
+      "name": "자전거 이용 활성화에 관한 법률",
+      "category": "법률",
+      "effectiveDate": "2023-07-04",
+      "lawNumber": "법률 제19162호",
+      "keyArticles": ["제11조"],
+      "topics": ["자전거주차장 설치기준"]
+    },
+    {
+      "id": "environmental-impact-assessment-act",
+      "name": "환경영향평가법",
+      "category": "법률",
+      "effectiveDate": "2024-10-22",
+      "lawNumber": "법률 제20518호",
+      "keyArticles": ["제2조", "제9조", "제22조"],
+      "topics": ["전략환경영향평가", "환경영향평가"]
+    },
+    {
+      "id": "barrier-free-certification-rule",
+      "name": "장애물 없는 생활환경 인증에 관한 규칙",
+      "category": "규칙",
+      "effectiveDate": "2021-12-04",
+      "lawNumber": "보건복지부령 제839호",
+      "parentLaw": "장애인·노인·임산부 등의 편의증진 보장에 관한 법률",
+      "keyArticles": ["제2조"],
+      "topics": ["BF인증", "의무대상"]
+    },
+    {
+      "id": "building-fire-material-standard",
+      "name": "건축물의 피난·방화구조 등의 기준에 관한 규칙",
+      "category": "규칙",
+      "effectiveDate": "2024-12-19",
+      "lawNumber": "국토교통부령 제1384호",
+      "parentLaw": "건축법",
+      "keyArticles": ["제24조"],
+      "topics": ["외벽마감재료", "준불연재료"]
+    },
+    {
+      "id": "eco-friendly-vehicle-act",
+      "name": "환경친화적 자동차의 개발 및 보급 촉진에 관한 법률",
+      "category": "법률",
+      "effectiveDate": "2022-01-28",
+      "lawNumber": "법률 제18323호",
+      "keyArticles": ["제11조의2"],
+      "topics": ["전기차충전시설", "전용주차구역"]
+    },
+    {
+      "id": "housing-act",
+      "name": "주택법",
+      "category": "법률",
+      "effectiveDate": "2024-07-17",
+      "lawNumber": "법률 제19839호",
+      "topics": ["사업계획승인"]
+    }
+  ],
+  "localOrdinances": {
+    "서울특별시": [
+      {
+        "id": "seoul-green-building",
+        "name": "서울시 녹색건축물 설계기준",
+        "effectiveDate": "2025-01-02",
+        "topics": ["지열의무설치", "모니터링장치"]
+      },
+      {
+        "id": "seoul-district-plan",
+        "name": "서울시 지구단위계획 수립기준·관리운영기준",
+        "effectiveDate": "2025-01-03",
+        "topics": ["용적률인센티브"]
+      },
+      {
+        "id": "seoul-magok",
+        "name": "서울시 마곡 도시개발사업 지구단위계획 시행지침",
+        "effectiveDate": "2024-09-19",
+        "topics": ["EPI", "생태면적률", "태양광"]
+      },
+      {
+        "id": "seoul-ecological-area",
+        "name": "서울특별시 생태면적률 운영지침",
+        "effectiveDate": "2025-05-21",
+        "topics": ["생태면적률", "제외대상"]
+      },
+      {
+        "id": "seoul-lid",
+        "name": "서울특별시 저영향개발 사전협의",
+        "topics": ["빗물관리시설"]
+      },
+      {
+        "id": "seoul-water-reuse",
+        "name": "서울특별시 물의 재이용 촉진 및 지원에 관한 조례",
+        "effectiveDate": "2023-10-04",
+        "topics": ["중수도"]
+      },
+      {
+        "id": "seoul-eco-vehicle",
+        "name": "서울특별시 환경친화적 자동차의 개발 및 보급 촉진에 관한 조례",
+        "effectiveDate": "2025-01-03",
+        "topics": ["전기차충전시설", "5%"]
+      }
+    ],
+    "인천광역시": [
+      {
+        "id": "incheon-green-building",
+        "name": "인천광역시 녹색건축물 설계기준",
+        "effectiveDate": "2025-05-19",
+        "topics": ["녹색건축인증"]
+      },
+      {
+        "id": "incheon-eco-vehicle",
+        "name": "인천광역시 환경친화적 자동차 보급 촉진 및 이용 활성화에 관한 조례",
+        "effectiveDate": "2022-04-21",
+        "topics": ["전기차충전시설", "5%"]
+      }
+    ],
+    "경기도": [
+      {
+        "id": "gyeonggi-eia",
+        "name": "경기도 환경영향평가 협의기준",
+        "effectiveDate": "2025-01-01",
+        "topics": ["환경영향평가"]
+      },
+      {
+        "id": "gyeonggi-eco-vehicle",
+        "name": "경기도 환경친화적 자동차의 보급 및 이용 활성화를 위한 조례",
+        "effectiveDate": "2024-10-11",
+        "topics": ["전기차충전시설", "5%", "급속20%"]
+      }
+    ],
+    "부산광역시": [
+      {
+        "id": "busan-green-building",
+        "name": "부산시 녹색건축물 설계기준",
+        "effectiveDate": "2024-07-01"
+      },
+      {
+        "id": "busan-eco-vehicle",
+        "name": "부산광역시 환경친화적 자동차 보급 촉진 및 이용 활성화에 관한 조례",
+        "effectiveDate": "2024-04-03",
+        "topics": ["전기차충전시설"]
+      }
+    ],
+    "대구광역시": [
+      {
+        "id": "daegu-green-building",
+        "name": "대구시 녹색건축물 설계기준",
+        "effectiveDate": "2022-07-20"
+      },
+      {
+        "id": "daegu-eco-vehicle",
+        "name": "대구광역시 환경친화적 자동차 보급 촉진 및 이용 활성화에 관한 조례",
+        "effectiveDate": "2023-07-10",
+        "topics": ["전기차충전시설", "5%"]
+      }
+    ],
+    "울산광역시": [
+      {
+        "id": "ulsan-green-building",
+        "name": "울산시 녹색건축물 설계기준",
+        "effectiveDate": "2025-01-03",
+        "topics": ["인센티브"]
+      },
+      {
+        "id": "ulsan-eco-vehicle",
+        "name": "울산광역시 환경친화적 자동차 보급 촉진 및 이용 활성화를 위한 조례",
+        "effectiveDate": "2023-12-28",
+        "topics": ["전기차충전시설", "5%"]
+      }
+    ],
+    "대전광역시": [
+      {
+        "id": "daejeon-eco-vehicle",
+        "name": "대전광역시 환경친화적 자동차 보급 촉진 조례",
+        "effectiveDate": "2023-10-06",
+        "topics": ["전기차충전시설", "5%"]
+      }
+    ],
+    "세종특별자치시": [
+      {
+        "id": "sejong-eco-vehicle",
+        "name": "세종특별자치시 환경친화적 자동차의 보급 촉진 및 이용 활성화에 관한 조례",
+        "effectiveDate": "2024-07-12",
+        "topics": ["전기차충전시설", "5%"]
+      }
+    ],
+    "충청남도": [
+      {
+        "id": "chungnam-green-building",
+        "name": "충청남도 녹색건축물 설계기준",
+        "effectiveDate": "2024-10-01"
+      },
+      {
+        "id": "chungnam-eco-vehicle",
+        "name": "충청남도 환경친화적 자동차의 보급 촉진 및 이용활성화에 관한 조례",
+        "effectiveDate": "2023-07-10",
+        "topics": ["전기차충전시설"]
+      }
+    ],
+    "충청북도": [
+      {
+        "id": "chungbuk-eco-vehicle",
+        "name": "충청북도 환경친화적 자동차의 보급 촉진 및 이용 활성화 조례",
+        "effectiveDate": "2023-12-29",
+        "topics": ["전기차충전시설", "5%"]
+      }
+    ],
+    "경상북도": [
+      {
+        "id": "gyeongbuk-eco-vehicle",
+        "name": "경상북도 환경친화적 자동차 보급 촉진 및 이용 활성화에 관한 조례",
+        "effectiveDate": "2024-05-23",
+        "topics": ["전기차충전시설", "5%", "지상설치권고"]
+      }
+    ],
+    "경상남도": [
+      {
+        "id": "gyeongnam-eco-vehicle",
+        "name": "경상남도 환경친화적 자동차 충전시설의 설치 등에 관한 조례",
+        "effectiveDate": "2024-11-11",
+        "topics": ["전기차충전시설", "5%", "학교제외"]
+      }
+    ],
+    "전북특별자치도": [
+      {
+        "id": "jeonbuk-eco-vehicle",
+        "name": "전북특별자치도 환경친화적 자동차 보급 및 이용 활성화를 위한 조례",
+        "effectiveDate": "2024-11-01",
+        "topics": ["전기차충전시설", "5%"]
+      }
+    ],
+    "전라남도": [
+      {
+        "id": "jeonnam-eco-vehicle",
+        "name": "전라남도 환경친화적 자동차의 보급 및 이용 활성화 조례",
+        "effectiveDate": "2024-12-19",
+        "topics": ["전기차충전시설", "5%"]
+      }
+    ],
+    "강원특별자치도": [
+      {
+        "id": "gangwon-eco-vehicle",
+        "name": "강원특별자치도 환경친화적 자동차 보급 및 이용활성화 조례",
+        "effectiveDate": "2023-06-11",
+        "topics": ["전기차충전시설", "5%"]
+      }
+    ],
+    "제주특별자치도": [
+      {
+        "id": "jeju-eco-vehicle",
+        "name": "제주특별자치도 전기자동차 보급 촉진 및 이용 활성화에 관한 조례",
+        "effectiveDate": "2024-04-15",
+        "topics": ["전기차충전시설", "5%"]
+      }
+    ]
+  },
+  "waterReuseOrdinances": [
+    "경상남도", "제주특별자치도", "서울특별시", "속초시", "고양시",
+    "과천시", "안산시", "오산시", "의정부시", "보은군", "서산시",
+    "음성군", "청양군", "군산시", "임실군", "장수군", "나주시",
+    "무안군", "순천시", "신안군", "장성군", "고성군", "진주시",
+    "창원시", "함양군"
+  ]
+}
