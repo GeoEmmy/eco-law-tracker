@@ -10,7 +10,8 @@ export default function TimelinePage() {
   );
 
   useEffect(() => {
-    fetch("/data/laws-to-track.json")
+    const basePath = process.env.NODE_ENV === "production" ? "/eco-law-tracker" : "";
+    fetch(`${basePath}/data/laws-to-track.json`)
       .then((res) => res.json())
       .then((d) => setData(d));
   }, []);
